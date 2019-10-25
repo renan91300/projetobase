@@ -3,8 +3,8 @@ session_start(); // inicializando a sessão
 ob_start(); // limpa o buffer de redirecionamento
 
 // url padrao do site
-define('URL', 'http://127.0.0.1/projetobase/');
-define('URLADM', 'http://127.0.0.1/projetobase/adm/');
+define('URL', 'http://http://34.95.190.110/projetobase/');
+define('URLADM', 'http://http://34.95.190.110/projetobase/adm/');
 
 // controller e métodos padrão
 define('CONTROLLER', 'Home');
@@ -14,7 +14,7 @@ define('ERROR404', 'Error404');
 //Dados de acesso ao BD
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', '');
+define('PASS', '1234');
 define('DBNAME', 'projetobase');
 
 
